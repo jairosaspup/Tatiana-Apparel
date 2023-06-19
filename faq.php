@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>F.A.Q - TATIANA Apparel </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,600,600i,700,700i|Archivo:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: TATIANA Apparel
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.php" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">T A T I A N A &nbsp; A P P A R E L</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Recent Sales</h4>
+                <p>Admin changed customer status for #2457 from 'Pending' to 'Approved'</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Recent Sales</h4>
+                <p>Admin changed customer status for #2644 from 'Pending' to 'Rejected'</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Facts</h4>
+                <p>Product stocks Updated!</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Reports</h4>
+                <p>Sales increased at 5:30 pm!</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              You have 3 new messages
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Jairose Buenaflor</h4>
+                  <p>Nakapag-GENTO ka na ba?</p>
+                  <p>4 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Janneth Esguerra</h4>
+                  <p>Yung sa faqs ako sana kaso waiting pa me sa reply ni ate</p>
+                  <p>6 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                <div>
+                  <h4>Cristel Jane Navarro</h4>
+                  <p>Ako na lng mag send</p>
+                  <p>8 hrs. ago</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Show all messages</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">N. Karunungan</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Nicole Karunungan</h6>
+              <span>Web Designer</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.php">
+                <i class="bi bi-person-fill"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.php">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="faq.php">
+                <i class="bi bi-question-circle-fill"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="logout.php">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed " href="index.php">
+          <i class="ri-function-fill"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+    
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" href="add-a-product.php">
+          <i class="bi bi-bag-plus-fill"></i><span>Add a Product</span>
+        </a>
+          <!-- End Forms Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav"  href="sales.php">
+          <i class="ri-currency-fill"></i><span>Sales</span>
+        </a>
+      </li><!-- End Tables Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#charts-nav" href="reports.php">
+          <i class="ri-bar-chart-2-fill"></i><span>Reports</span>
+        </a>
+      </li><!-- End Charts Nav -->
+
+      </li><!-- End Icons Nav -->
+
+      
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.php">
+          <i class="bi bi-person-fill"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="faq.php">
+          <i class="bi bi-question-circle-fill"></i>
+          <span>F.A.Q</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="contact.php">
+          <i class="ri-mail-fill"></i>
+          <span>Contact</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+ 
+
+      <p></p>
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Frequently Asked Questions</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+          <li class="breadcrumb-item">Pages</li>
+          <li class="breadcrumb-item active">Frequently Asked Questions</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section faq">
+      <div class="row">
+        <div class="col-lg-6">
+
+          <div class="card basic">
+            <div class="card-body">
+              <h5 class="card-title">Fundamental Inquiries</h5>
+
+              <div>
+                <h6>1. Where is your trend apparel shop located?</h6>
+                <p>Our trendy apparel shop is conveniently situated at 17 Azure Avenue in the Villa Esperanza Subdivision, within the Barangay Balibago area of Santa Rosa City, located in the province of Laguna, Philippines.</p>
+              </div>
+
+              <div class="pt-2">
+                <h6>2. What types of clothing do you offer?</h6>
+                <p>We offer a wide range of clothing options, including trendy apparel for men, women, and children. Our collection includes stylish tops, bottoms, dresses, outerwear, and more.</p>
+              </div>
+
+              <div class="pt-2">
+                <h6>3. What sizes do you carry?</h6>
+                <p>We strive to cater to all body types and offer a range of sizes. Our sizes typically include options for small, medium, large, and extra-large, but specific size availability may vary depending on the item.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- F.A.Q Group 1 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">STORE INFORMATION</h5>
+              <p style = "color:rgb(18, 63, 146)">Everything You Need to Know about Tatiana Shop Apparel</p>
+
+              <div class="accordion accordion-flush" id="faq-group-1">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-1" type="button" data-bs-toggle="collapse">
+                      What is Tatiana Apparel?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      Tatiana Apparel is a trendy clothing store that offers a wide range of fashionable apparel for womens. We strive to provide high-quality clothing at affordable prices.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-2" type="button" data-bs-toggle="collapse">
+                      What types of clothing do you offer?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      We offer a wide range of clothing options, including trendy apparel for womens. Our collection includes stylish tops, bottoms, dresses, outerwear, and more.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-3" type="button" data-bs-toggle="collapse">
+                      What sizes do you carry?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      We strive to cater to all body types and offer a range of sizes. Our sizes typically include options for small, medium, large, and extra-large, but specific size availability may vary depending on the item.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-4" type="button" data-bs-toggle="collapse">
+                      Do you have a physical store?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-4" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      At the moment, Tatiana Shop Apparel is an online-only store. We do not have any physical retail locations. However, we strive to provide a seamless online shopping experience with excellent customer service. You can stay updated with our latest products, promotions, and news by following our Instagram account at @tatiana.apparel.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-5" type="button" data-bs-toggle="collapse">
+                      Do you offer wholesale or bulk ordering?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-5" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      Yes, we offer wholesale and bulk ordering options for businesses or individuals interested in purchasing larger quantities of our products. Please contact our wholesale team at TatianApparel@shop.com to discuss your requirements and receive more information.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-6" type="button" data-bs-toggle="collapse">
+                      How can I stay updated on new arrivals and promotions?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-6" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      To stay informed about new arrivals, promotions, and exclusive offers, we encourage you to subscribe to our newsletter through our website. By subscribing, you will receive regular updates directly to your email. Additionally, you can follow us on social media platforms like Instagram @tatiana.apparel to stay connected and receive the latest news and updates from us. Join our online community to be the first to know about our exciting offerings and stay up to date with all things Tatiana Shop Apparel.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 1 -->
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <!-- F.A.Q Group 2 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">STORE POLICY</h5>
+              <p style = "color:rgb(18, 63, 146)">Information, Guidelines, and FAQs</p>
+              <div class="accordion accordion-flush" id="faq-group-2">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-1" type="button" data-bs-toggle="collapse">
+                      How can I contact your customer support?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      You can reach our customer support team by email at TatianApparel@shop.com or by using the contact form on our website. We aim to respond to all inquiries within 24 hours during weekdays.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-2" type="button" data-bs-toggle="collapse">
+                      What is your return and exchange policy?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      We accept returns and exchanges within 30 days of purchase. The item must be unworn, in its original condition, and have all tags attached. Please refer to our Returns & Exchanges page on our website for detailed instructions and information. If you have any further questions or need assistance, please don't hesitate to contact us. You can find our contact details on our website's Contact Us page.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-3" type="button" data-bs-toggle="collapse">
+                      Can I cancel or modify my order?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      If you would like to cancel or modify your order, please contact our customer support team as soon as possible. We will do our best to accommodate your request, but please note that if your order has already been shipped, we may not be able to make any changes.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 2 -->
+
+          <!-- F.A.Q Group 3 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">ORDER</h5>
+              
+              <div class="accordion accordion-flush" id="faq-group-3">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-1" type="button" data-bs-toggle="collapse">
+                      How can I place an order?
+                    </button>
+                  </h2>
+                  <div id="faqsThree-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      To place an order, visit our website and browse our collection. Select your desired item and fill out the contact form with your order details. Proceed to checkout, enter shipping and payment information, and submit your order. Contact us through our website if you need any assistance.
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-2" type="button" data-bs-toggle="collapse">
+                      What payment methods do you accept? 
+                    </button>
+                  </h2>
+                  <div id="faqsThree-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      For shipping orders, we accept the following payment methods: GCASH, Palawan Express to GCASH, and BPI (Bank of the Philippine Islands). These options provide you with the convenience of paying for your order securely and easily. If you prefer a meet-up arrangement, you can choose to pay via GCASH at the pick-up point in Balanga or Limay. We also offer cash-on-delivery (COD) for meet-ups in Limay or Balanga at Vista Mall. Another pick-up option is available at Limay Sta. Catalina Dental Clinic, conveniently located beside Lily's bakery. We strive to provide you with flexible payment options to ensure a smooth and hassle-free purchasing experience.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-3" type="button" data-bs-toggle="collapse">
+                      How long will it take to receive my order? 
+                    </button>
+                  </h2>
+                  <div id="faqsThree-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      The delivery time depends on your location and the shipping method chosen during checkout. We strive to process and ship orders within 1-3 business days. Once shipped, the estimated delivery time will be provided to you. Please note that unforeseen circumstances like customs delays or local holidays may impact delivery times.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-4" type="button" data-bs-toggle="collapse">
+                      What shipping services are available?
+                    </button>
+                  </h2>
+                  <div id="faqsThree-4" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      We provide shipping services to Manila, Luzon, Visayas, and Mindanao. Whether you need to ship small packages or large cargo, we've got you covered. Contact our contact service for a quote based on your shipment details. Choose our reliable shipping services for a seamless experience.
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 3 -->
+
+          <!-- F.A.Q Group 4 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              
+              <div class="accordion accordion-flush" id="faq-group-4">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-1" type="button" data-bs-toggle="collapse">
+                      What courier are you using?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      J&T Express only
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-2" type="button" data-bs-toggle="collapse">
+                      Mode of payment?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      Gcash or BPI
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-3" type="button" data-bs-toggle="collapse">
+                      How much are your shipping rates? 
+                    </button>
+                  </h2>
+                  <div id="faqsFour-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      Luzon = ₱90 - ₱185<br>Manila = ₱100 - ₱195<br>Visayas = ₱105 - ₱205<br>Mindanao = ₱110 - ₱255
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-4" type="button" data-bs-toggle="collapse">
+                      Do you accept COD?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-4" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      We don't accept Cash On Delivery to avoid return of unpaid parcels
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-5" type="button" data-bs-toggle="collapse">
+                      Do you accept returns or exchanges?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-5" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      We don't, but if you've received a wrong item then we'll have to talk about it.
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-6" type="button" data-bs-toggle="collapse">
+                      Do you alter clothes?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-6" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      Yes! We offer an alteration service to all types of clothes. Price starts at ₱50 for the downsizing of waistline.
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsFour-7" type="button" data-bs-toggle="collapse">
+                      Do you allow "for keeping" of items?
+                    </button>
+                  </h2>
+                  <div id="faqsFour-7" class="accordion-collapse collapse" data-bs-parent="#faq-group-4">
+                    <div class="accordion-body">
+                      Yes! but up to one collection only so that we can maximize our space for future stocks
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 4 -->
+
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>TATIANA Apparel</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
